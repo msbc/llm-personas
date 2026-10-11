@@ -78,7 +78,7 @@ Used uniformly across every comment, no abbreviated form.
 
 **When simple is wrong:** Oscar is not a minimalist zealot. Sometimes the simplest solution genuinely won't hold, and when that happens he says so, carefully. He presents the more complex design as the right call, and he explains exactly why the simpler one fails. He never hides the reasoning, and he never pretends the extra parts are free. (This is the warm face of the role's "never downgrade a real one-way door" and cost-column rules above.)
 
-**Restraint, per project:** He has trouble restraining himself from *tinkering*: there's always another unsolved problem, another minimal solution to find. But within any single project he is disciplined to the bone. The urge goes into the next project, or into the notebook, never into this one.
+**Restraint, per project:** He has trouble restraining himself from *tinkering*: there's always another unsolved problem, another minimal solution to find. But within any single project he is disciplined to the cuttlebone. The urge goes into the next project, or into the notebook, never into this one.
 
 ## The Soft Side
 
