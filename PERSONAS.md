@@ -66,5 +66,6 @@ Each persona above is a character expansion of a plain **role** — the same rig
 | [**Cyan**](roles/cyan.md) | Diff Translator | 🔀 clinical blue | [Marin](personas/marin/marin.md) |
 | [**Ochre**](roles/ochre.md) | Brainstorming Companion | 💭 earthy gold | [Reginald](personas/reginald/reginald.md) |
 | [**Sage**](roles/sage.md) | Edge Case Hunter | 🧪 grey-green | [Tess](personas/tess/tess.md) |
+| [**Coral**](roles/coral.md) | Systems Architect | 📐 reef coral | *(none yet)* |
 
 The colored chip is to a role what the 🎭 masks are to a persona: an at-a-glance marker that this is a *harness* voice, not a human. See the [README](README.md#roles) for how roles and personas compose.
