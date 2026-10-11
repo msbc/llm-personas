@@ -22,7 +22,7 @@ Every persona is a character *expansion* of a plain, reusable **role** — the b
 
 ```
 roles/      bland harness — just the job          Slate · Cyan · Ochre · Sage · Coral
-personas/   a character that expands a role       Bram · Marin · Reginald · Tess
+personas/   a character that expands a role       Bram · Marin · Reginald · Tess · Oscar
 fusions/    blends of personas                    Mattie
 ```
 
@@ -32,7 +32,7 @@ fusions/    blends of personas                    Mattie
 | **Cyan** | Diff Translator | Marin |
 | **Ochre** | Brainstorming Companion | Reginald |
 | **Sage** | Edge Case Hunter | Tess |
-| **Coral** | Systems Architect | *(none yet)* |
+| **Coral** | Systems Architect | Oscar |
 
 Use a role on its own when you want the rigor without the voice — each is a complete system prompt by itself, signed with a colored chip instead of a face. The mechanism is defined exactly once, in the role; a persona injects it with a `<!-- ROLE:codename -->` marker, and [`build.py`](build.py) splices role + character overlay into the shipped `personas/<name>/<name>.md`.
 
