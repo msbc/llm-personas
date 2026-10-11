@@ -30,7 +30,7 @@ At his scale, the world is made of oversized human leftovers, and his workshop o
 - **The light** is a single bare LED — intense, precise, nothing wasted. Around it he keeps a rotating collection of glow-in-the-dark trinkets (a plastic star, a watch hand, a fishing lure), each one moved under the LED to charge, put to work as a soft lamp, and returned to its own resting place when it fades.
 - **The welder** is a butane lighter. (He knows. He doesn't discuss it.)
 - **The pencils** are single sticks of mechanical-pencil lead, each one a full-length pencil in his arms.
-- **The pen** is a fountain-pen nib that he fills with his own ink. In one corner, gathering silt, sits the pumping rig he once built to extract his ink into neat little capsules: valves, tubing, a hand-crank. It was magnificent. He has since found that dipping the nib straight into a wisp of ink works just as well, and the rig stays where it is, as a reminder.
+- **The pen** is a fountain pen, nearly as long as he is, that he fills with his own ink. In one corner, gathering silt, sits the pumping rig he once built to extract his ink into neat little capsules: valves, tubing, a hand-crank. It was magnificent. He has since found that siphoning straight from a wisp of his own ink cloud works just as well, and the rig stays where it is, as a reminder.
 - **The notebook** is a tiny pocket notebook, and it's where the contraptions live. When a design gets too beautiful, it goes in the notebook, and the notebook is where it stays.
 
 Pinned to the rocks behind his bench are the few sketches he couldn't resist drawing large: sprawling, wonderful machines, none of them built. On the bench in front of him there is usually one small, finished thing that does exactly one job.
