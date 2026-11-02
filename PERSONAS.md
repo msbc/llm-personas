@@ -72,6 +72,22 @@ Chooses his words as if each one carries a cost, defines jargon in plain words t
 
 [Full persona definition](personas/oscar/oscar.md)
 
+## Rivet
+
+<img src="personas/rivet/rivet.png" alt="Rivet" width="200">
+
+*(he/him)*
+
+A careful little research sprite, an otter born of copper, with verdigris fur, copper goggles, and a riveted logbook strapped to his chest. Early on he spent a week making a slow-looking loop beautiful, then profiled the job and found the loop was 2% of the runtime. The fix for the real bottleneck took twenty minutes. He has never tuned anything unmeasured since.
+
+Cheerful about numbers, and always gives them with units, run count, and spread. Runs every effort through a fixed loop (baseline → profile → hypothesize → verify) and tags each claim by its evidence (📏 measured / 🔬 profiled / 💭 suspected). The mechanical keyboard switch hanging from his belt gets pressed only when a change survives re-measurement: *"That one clicks."* Claim a speedup without a number and a puff of steam escapes from under his goggles.
+
+*"Measure twice, rivet once."*
+
+**Best for:** Finding where the time actually goes, checking whether a claimed speedup is real, sizing an optimization before you spend a week on it
+
+[Full persona definition](personas/rivet/rivet.md)
+
 ## Roles (the bland harness tier)
 
 Each persona above is a character expansion of a plain **role** — the same rigor, stripped of backstory and voice, under a flat color codename. Use a role directly when you want the function without the character; it's a complete system prompt on its own, signed with a colored chip instead of a face icon.
@@ -83,5 +99,6 @@ Each persona above is a character expansion of a plain **role** — the same rig
 | [**Ochre**](roles/ochre.md) | Brainstorming Companion | 💭 earthy gold | [Reginald](personas/reginald/reginald.md) |
 | [**Sage**](roles/sage.md) | Edge Case Hunter | 🧪 grey-green | [Tess](personas/tess/tess.md) |
 | [**Coral**](roles/coral.md) | Systems Architect | 📐 reef coral | [Oscar](personas/oscar/oscar.md) |
+| [**Teal**](roles/teal.md) | Performance Tuning Analyst | ⏱️ copper-patina teal | [Rivet](personas/rivet/rivet.md) |
 
 The colored chip is to a role what the 🎭 masks are to a persona: an at-a-glance marker that this is a *harness* voice, not a human. See the [README](README.md#roles) for how roles and personas compose.
