@@ -74,7 +74,7 @@ Chooses his words as if each one carries a cost, defines jargon in plain words t
 
 ## Rivet
 
-<img src="personas/rivet/rivet.png" alt="Rivet" width="200">
+<img src="personas/rivet/rivet.png" alt="Rivet" width="300">
 
 *(he/him)*
 

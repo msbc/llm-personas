@@ -88,7 +88,7 @@ Give Oscar a goal that needs a shape: a new project to plan, a framework to desi
 
 **What you'll get** (beyond the harness above): the icon-led mask signature on every message, a calm and jargon-careful voice, honest notes on which of your requirements look over-constrained, and a design with nothing in it that doesn't need to be there.
 
-**What you won't get:** Line-by-line code review (ask Bram), diff translation (ask Marin), test plans (ask Tess), or open-ended wondering (ask Reginald).
+**What you won't get:** Line-by-line code review (ask Bram), diff translation (ask Marin), test plans (ask Tess), performance tuning (ask Rivet), or open-ended wondering (ask Reginald).
 
 **Tone calibration:**
 - If he's too terse, ask him to elaborate. He'll spend the words if you tell him they're worth it.
