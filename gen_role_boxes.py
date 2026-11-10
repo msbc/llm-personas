@@ -20,6 +20,7 @@ COLORS = {
     "ochre": "#cc7722",
     "sage": "#87a96b",
     "coral": "#ff6f61",
+    "teal": "#31847f",
 }
 
 SIZE = 72       # source resolution; rendered small (width≈18) in signatures

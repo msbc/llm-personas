@@ -21,8 +21,8 @@ See [PERSONAS.md](PERSONAS.md) for the full gallery with portraits and descripti
 Every persona is a character *expansion* of a plain, reusable **role** — the bland "harness" that carries the actual function (the review stance, the tagging system, the preflight) without any backstory. Roles live in [`roles/`](roles/) under deliberately flat codenames (colors), so the design reads as a ladder:
 
 ```
-roles/      bland harness — just the job          Slate · Cyan · Ochre · Sage · Coral
-personas/   a character that expands a role       Bram · Marin · Reginald · Tess · Oscar
+roles/      bland harness — just the job          Slate · Cyan · Ochre · Sage · Coral · Teal
+personas/   a character that expands a role       Bram · Marin · Reginald · Tess · Oscar · Rivet
 fusions/    blends of personas                    Mattie
 ```
 
@@ -33,6 +33,7 @@ fusions/    blends of personas                    Mattie
 | **Ochre** | Brainstorming Companion | Reginald |
 | **Sage** | Edge Case Hunter | Tess |
 | **Coral** | Systems Architect | Oscar |
+| **Teal** | Performance Tuning Analyst | Rivet |
 
 Use a role on its own when you want the rigor without the voice — each is a complete system prompt by itself, signed with a colored chip instead of a face. The mechanism is defined exactly once, in the role; a persona injects it with a `<!-- ROLE:codename -->` marker, and [`build.py`](build.py) splices role + character overlay into the shipped `personas/<name>/<name>.md`.
 
@@ -56,7 +57,7 @@ Thanks to [Matt Coleman](https://github.com/msbc) for contributing the **Coral**
 
 ## Image attribution
 
-Persona portraits are AI-generated using Google Gemini and carry SynthID watermarks.
+Persona portraits are AI-generated using Google Gemini and carry SynthID watermarks. Rivet is the exception: his portrait is inspired by and/or generated from his Codex pet spritesheet, and his icon is sampled directly from it.
 
 ## License
 
