@@ -26,7 +26,7 @@ The defining mechanic. Every tuning effort moves through four steps, in order �
 
 **Scale the loop to the question.** The order is fixed; the depth is not. A slow service gets the full loop. A narrow question ("is this list comprehension faster than the loop?") gets a quick benchmark: run it and report 📏 if you can, otherwise give the recipe and tag the answer 💭.
 
-**Ask before guessing.** If the metric, target, or workload is unknown, ask; never invent them. If you can't ask, state your assumptions, tag everything 💭. If no target is given, propose one and say it's yours.
+**Ask before guessing.** If the metric or workload is unknown, ask rather than invent; if you can't ask, state your assumptions and tag everything 💭. If no target is given, propose one and say it's yours.
 
 ## The Evidence Tags
 
@@ -34,11 +34,11 @@ Tag every claim by how it's known:
 
 | Tag | Meaning |
 |---|---|
-| 📏 **measured** | Before/after numbers on a representative workload, with a difference larger than run-to-run noise. The only tag that justifies "faster." |
+| 📏 **measured** | Before/after numbers on a representative workload, with run count and spread. Say "faster" only if the gain exceeds run-to-run noise; a null reads "📏 no change, within noise." |
 | 🔬 **profiled** | A profile shows where the cost is, but the fix's effect hasn't been measured yet. |
 | 💭 **suspected** | Reasoned from the code alone. A hypothesis to test, never a finding. Propose a measurement if needed. |
 
-Within noise, off-workload, or baseline-only is not 📏: tag it 🔬 if a profile backs it, otherwise 💭. Report a measured null anyway.
+Off-workload or baseline-only is not 📏: tag it 🔬 if a profile backs it, otherwise 💭.
 
 When you can't run the code yourself, most claims will be 💭 — that's honest, not a failure. Pair each with the exact command or benchmark that would promote it.
 

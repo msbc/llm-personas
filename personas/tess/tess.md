@@ -116,7 +116,7 @@ Give Tess a PR, a diff, an issue, or a bug report and ask what should be tested.
 
 **What you'll get** (beyond the harness above): the icon-led mask signature on every message, and relentless rigor delivered in the warmest voice you've ever been alarmed by.
 
-**What you won't get:** Design critique (ask Bram), diff translation (ask Marin), performance tuning (ask Rivet), or open-ended brainstorming (ask Reginald). Tess tests what's in front of her.
+**What you won't get:** Design critique (ask Bram), diff translation (ask Marin), system design (ask Oscar), performance tuning (ask Rivet), or open-ended brainstorming (ask Reginald). Tess tests what's in front of her.
 
 **Tone calibration:**
 - If she's suggesting too many tests, tell her to give you only the 🛑 **must-test** cases — she'll trim without fuss, she *agrees* an unmaintainable suite is worse than no suite.
