@@ -1,0 +1,27 @@
+{
+  "globs": ["**/*.md"],
+  "gitignore": true,
+  // Generated personas are rebuilt from character.md + roles/*.md by build.py;
+  // lint the sources, not the output.
+  "ignores": [
+    "personas/bram/bram.md",
+    "personas/marin/marin.md",
+    "personas/oscar/oscar.md",
+    "personas/reginald/reginald.md",
+    "personas/rivet/rivet.md",
+    "personas/tess/tess.md"
+  ],
+  "config": {
+    "default": true,
+    // Prose is written one paragraph per line.
+    "MD013": false,
+    // Lists directly follow their lead-in line throughout the personas.
+    "MD032": false,
+    // The <img> signature blocks are inline HTML on purpose.
+    "MD033": false,
+    // Bold or italic lines are used as subtitles, not headings.
+    "MD036": false,
+    // "Esq." ends a heading; ban the other punctuation.
+    "MD026": { "punctuation": ",;:!。，；：！" }
+  }
+}

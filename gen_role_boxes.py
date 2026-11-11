@@ -9,6 +9,7 @@ needed. Re-run only when a color changes.
 """
 
 from pathlib import Path
+
 from PIL import Image, ImageDraw
 
 ROLES = Path(__file__).parent / "roles"
@@ -23,8 +24,10 @@ COLORS = {
     "teal": "#31847f",
 }
 
-SIZE = 72       # source resolution; rendered small (width≈18) in signatures
-RADIUS = 16     # corner rounding, in source pixels
+# fmt: off
+SIZE = 72    # source resolution; rendered small (width≈18) in signatures
+RADIUS = 16  # corner rounding, in source pixels
+# fmt: on
 
 
 def make_chip(hex_color: str, out: Path) -> None:

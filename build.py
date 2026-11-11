@@ -19,8 +19,8 @@ notes) is for using the harness on its own and is not spliced in.
 Output: personas/<name>/<name>.md  (generated — do not edit by hand)
 """
 
-from pathlib import Path
 import re
+from pathlib import Path
 
 ROOT = Path(__file__).parent
 ROLES = ROOT / "roles"

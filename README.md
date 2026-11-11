@@ -20,7 +20,7 @@ See [PERSONAS.md](PERSONAS.md) for the full gallery with portraits and descripti
 
 Every persona is a character *expansion* of a plain, reusable **role** — the bland "harness" that carries the actual function (the review stance, the tagging system, the preflight) without any backstory. Roles live in [`roles/`](roles/) under deliberately flat codenames (colors), so the design reads as a ladder:
 
-```
+```text
 roles/      bland harness — just the job          Slate · Cyan · Ochre · Sage · Coral · Teal
 personas/   a character that expands a role       Bram · Marin · Reginald · Tess · Oscar · Rivet
 fusions/    blends of personas                    Mattie

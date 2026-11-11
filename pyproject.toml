@@ -1,0 +1,36 @@
+[project]
+name = "llm-personas"
+version = "0.1.0"
+description = "Role harnesses and character personas for LLM prompts."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+# gen_role_boxes.py is the only script with a runtime dependency.
+dependencies = ["pillow"]
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.uv]
+# A collection of scripts and markdown, not an installable package.
+package = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort
+    "B",   # bugbear
+    "UP",  # pyupgrade
+    "SIM", # simplify
+    "RUF", # ruff-specific
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
