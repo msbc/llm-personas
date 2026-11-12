@@ -1,5 +1,7 @@
 """Tests for build.py: splicing role harnesses into persona character files."""
 
+import json
+import re
 import shutil
 from pathlib import Path
 
@@ -106,3 +108,25 @@ def test_main_with_no_characters(tmp_path, monkeypatch, capsys):
 
 def test_repo_root_is_this_checkout():
     assert Path(__file__).resolve().parent.parent == build.ROOT
+
+
+def test_markdownlint_ignores_every_generated_persona():
+    """Each generated <name>.md must be in the markdownlint ignore list.
+
+    Otherwise adding a persona without updating the config makes CI lint
+    generated output instead of its sources.
+    """
+    config_text = (build.ROOT / ".markdownlint-cli2.jsonc").read_text()
+    # The config is JSONC; drop full-line // comments so json can parse it.
+    config = json.loads(re.sub(r"^\s*//.*$", "", config_text, flags=re.MULTILINE))
+    ignores = set(config["ignores"])
+
+    char_paths = list(build.PERSONAS.glob("*/character.md"))
+    assert char_paths, "no character.md files found; is PERSONAS pointing at the repo?"
+
+    for char_path in char_paths:
+        name = char_path.parent.name
+        generated = f"personas/{name}/{name}.md"
+        assert generated in ignores, (
+            f"add {generated!r} to 'ignores' in .markdownlint-cli2.jsonc"
+        )
